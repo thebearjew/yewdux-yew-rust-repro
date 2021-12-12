@@ -1,0 +1,11 @@
+[package]
+name = "yewdux-yew-master-error"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew = {git = "https://github.com/yewstack/yew", branch="master"} # Yew @ next
+yewdux = { git = "https://github.com/intendednull/yewdux.git", branch="master"}
+# Other
+gloo = "0.5"
+wasm-bindgen = "0.2.67"
