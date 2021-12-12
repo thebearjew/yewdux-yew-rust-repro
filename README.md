@@ -1,3 +1,14 @@
+# Yewdux@master and Yew@master error
+
+My rust version
+```
+❯ rustup --version
+rustup 1.24.3 (ce5817a94 2021-05-31)
+info: This is the version for the rustup toolchain manager, not the rustc compiler.
+info: The currently active `rustc` version is `rustc 1.59.0-nightly (efec54529 2021-12-04)`
+```
+
+### Compiler Error
 ```
 error[E0277]: expected a `Fn<(MouseEvent,)>` closure, found `yew::callback::Callback<MouseEvent>`
    --> src/modal.rs:67:34
